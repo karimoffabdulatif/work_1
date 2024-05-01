@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/tuit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.704);
+  text-align: center;
+  margin-top: 3%;
+  padding-top: 35px;
+}
+
+.input_username {
+  font-weight: bold;
+  width: 250px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2%;
+  border-radius: 5px;
+  border: 0;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.input_username::-moz-placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+.input_username::placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+.password {
+  font-weight: bold;
+  color: black;
+  width: 250px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 3%;
+  border-radius: 5px;
+  border: 0;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.password::-moz-placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+.password::placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+form {
+  text-align: center;
+}
+
+.login_page {
+  width: 450px;
+  height: 250px;
+  margin-top: 22%;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+
+.login_btn {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: indianred;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 5%;
+  margin-left: 185px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.login_btn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+span {
+  display: flex;
+  position: absolute;
+  margin-left: 320px;
+  margin-top: -25px;
+}
+
+.next_page-btn {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: indianred;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 5%;
+  margin-left: 160px;
+  transition: all 1s ease;
+  cursor: pointer;
+  align-items: center;
+}
+
+.next_page-btn:hover {
+  background-color: aliceblue;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
